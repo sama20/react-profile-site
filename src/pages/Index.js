@@ -13,13 +13,12 @@ const Index = () => (
     fullPage="true"
   >
     <article className="post" id="index">
-      <h2 data-testid="heading"><Link to="/">About this site</Link></h2>
       <section id="intro">
         <Link to="/" className="logo">
           <img src={`${PUBLIC_URL}/images/me.webp`} alt="" />
         </Link>
         <header>
-          <h2 style={{ marginBottom: '5px' }}>Moha Asghari</h2>
+          <h2 data-testid="heading" style={{ marginBottom: '5px' }}>Moha Asghari</h2>
           <h4>A Fullstack web developer</h4>
           {/* <h3>Full Stack Developer</h3> */}
           <p><a href="mailto:asghari.moha@gmail.com">asghari.moha@gmail.com</a></p>
