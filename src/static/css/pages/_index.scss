@@ -1,0 +1,41 @@
+/* Index */
+.button-holder{
+	text-align: center;
+	margin-top: 15px;
+	a {
+		margin: 5px;
+	}
+}
+
+.cart-index {
+	// position: relative;
+	// display: inline-block;
+	display: flex;
+	align-items: center;
+}
+
+.profile-img {
+	text-align: center;
+	width: 30%;
+	padding-left: 2%;
+	padding-right: 2%;
+	border-radius: 50%;
+	position: relative;
+	display: inline-block;
+
+	// @include breakpoint(small){
+	// 	width: 80%;
+	// }
+}
+
+.mian-content {
+	display: inline-block;
+	// position: absolute;
+	width: 70%;
+	top:0%;
+	
+	// @include breakpoint(small){
+	// 	width: 100%;
+	// }
+}
+
